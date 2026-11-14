@@ -11,10 +11,10 @@ def get_choices():
     return choices
 
     def check_win(player, computer):
-        print(f"You chose {player}, computer chose {computer}")
+        printf("You chose {player}, computer chose {computer}")
         if player == computer:
             return "It's a tie!"
-        elif player == "rock!"
+        elif player == "rock!":
         if computer == "scissors":
             return "Rock smashes scissors! You win!"
         elif player == "paper":
@@ -32,3 +32,5 @@ def get_choices():
                 
                 choices = get_choices()
                 result = check_win(choices["player"], choices["computer"])
+
+            
